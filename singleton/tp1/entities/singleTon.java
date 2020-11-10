@@ -32,8 +32,8 @@ public class singleTon {
 	
 	public void addEntity() {
 		Entity1 n = new Entity1();
-		n.setId(getEntity1s().size() + 1);
-		n.setData(String.format("data %d", getEntity1s().size() + 1));
+		n.setId(getEntity1s().size());
+		n.setData(String.format("data %d", getEntity1s().size()));
 		getEntity1s().add(n);
 	}
 }
